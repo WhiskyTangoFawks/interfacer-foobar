@@ -1,0 +1,8 @@
+@namespace("com.test.foobar")
+protocol Foo {
+	import idl "Bar.avdl";
+	record Foo {
+		Bar bar;
+		string someData;
+	}
+}

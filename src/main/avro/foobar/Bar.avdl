@@ -1,0 +1,6 @@
+@namespace("com.test.foobar")
+protocol Bar {
+	record Bar {
+		string someOtherData;
+	}
+}
